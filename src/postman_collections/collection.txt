@@ -1,0 +1,13 @@
+Rol:descripcion
+Usuario:nombre,apellido,email,password,rol_id
+Cliente:nombres,apellidos,dni,telefono,direccion,email,indicacion_general
+Mascota:nombre,especie,raza,fecha_nacimiento,peso,sexo,cliente_id
+Proveedor:nombre,ruc,telefono,email,direccion,contacto,observaciones
+Categoria_producto:nombre,descripcion
+Producto:nombre,categoria_producto_id,tamano,precio_venta,stock,descripcion,proveedor_id
+Compra:fecha,total,proveedor_id,usuario_id
+Detalle_compra:compra_id,producto_id,cantidad,precio_compra
+Venta:fecha,total,cliente_id,usuario_id
+Detalle_venta:venta_id,producto_id,cantidad,precio_venta
+Historia_clinica:mascota_id,fecha,motivo_consulta,diagnostico,tratamiento,observaciones,usuario_id
+Reporte:tipo_reporte,fecha_generado,contenido,usuario_id
