@@ -11,3 +11,9 @@ Venta:fecha,total,cliente_id,usuario_id
 Detalle_venta:venta_id,producto_id,cantidad,precio_venta
 Historia_clinica:mascota_id,fecha,motivo_consulta,diagnostico,tratamiento,observaciones,usuario_id
 Reporte:tipo_reporte,fecha_generado,contenido,usuario_id
+Sexo:descripcion
+Mascota:nombre,especie,raza,fecha_nacimiento,peso,sexo_id,cliente_id
+Sexo:descripcion
+Especie:descripcion
+Raza:descripcion,especie_id
+Mascota:nombre,especie_id,raza_id,fecha_nacimiento,peso,sexo_id,cliente_id

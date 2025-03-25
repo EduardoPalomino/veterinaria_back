@@ -1343,6 +1343,624 @@
           "response": []
         }
       ]
+    },
+    {
+      "name": "Sexo",
+      "item": [
+        {
+          "name": "Get Sexos",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "http://localhost:3009/Sexos/",
+              "protocol": "http",
+              "host": [
+                "localhost:3009"
+              ],
+              "path": [
+                "Sexos"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Get Sexo by ID",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "http://localhost:3009/Sexos/:id",
+              "protocol": "http",
+              "host": [
+                "localhost:3009"
+              ],
+              "path": [
+                "Sexos",
+                ":id"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Create Sexo",
+          "request": {
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\"descripcion\":\"{{descripcion}}\"}"
+            },
+            "url": {
+              "raw": "http://localhost:3009/Sexos/create",
+              "protocol": "http",
+              "host": [
+                "localhost:3009"
+              ],
+              "path": [
+                "Sexos",
+                "create"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Update Sexo",
+          "request": {
+            "method": "PUT",
+            "body": {
+              "mode": "raw",
+              "raw": "{\"descripcion\":\"{{descripcion}}\"}"
+            },
+            "url": {
+              "raw": "http://localhost:3009/Sexos/update/:id",
+              "protocol": "http",
+              "host": [
+                "localhost:3009"
+              ],
+              "path": [
+                "Sexos",
+                "update"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Delete Sexo by ID",
+          "request": {
+            "method": "DELETE",
+            "url": {
+              "raw": "http://localhost:3009/Sexos/delete/:id",
+              "protocol": "http",
+              "host": [
+                "localhost:3009"
+              ],
+              "path": [
+                "Sexos",
+                "delete",
+                ":id"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Mascota",
+      "item": [
+        {
+          "name": "Get Mascotas",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "http://localhost:3009/Mascotas/",
+              "protocol": "http",
+              "host": [
+                "localhost:3009"
+              ],
+              "path": [
+                "Mascotas"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Get Mascota by ID",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "http://localhost:3009/Mascotas/:id",
+              "protocol": "http",
+              "host": [
+                "localhost:3009"
+              ],
+              "path": [
+                "Mascotas",
+                ":id"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Create Mascota",
+          "request": {
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\"nombre\":\"{{nombre}}\",\"especie\":\"{{especie}}\",\"raza\":\"{{raza}}\",\"fecha_nacimiento\":\"{{fecha_nacimiento}}\",\"peso\":\"{{peso}}\",\"sexo_id\":\"{{sexo_id}}\",\"cliente_id\":\"{{cliente_id}}\"}"
+            },
+            "url": {
+              "raw": "http://localhost:3009/Mascotas/create",
+              "protocol": "http",
+              "host": [
+                "localhost:3009"
+              ],
+              "path": [
+                "Mascotas",
+                "create"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Update Mascota",
+          "request": {
+            "method": "PUT",
+            "body": {
+              "mode": "raw",
+              "raw": "{\"nombre\":\"{{nombre}}\",\"especie\":\"{{especie}}\",\"raza\":\"{{raza}}\",\"fecha_nacimiento\":\"{{fecha_nacimiento}}\",\"peso\":\"{{peso}}\",\"sexo_id\":\"{{sexo_id}}\",\"cliente_id\":\"{{cliente_id}}\"}"
+            },
+            "url": {
+              "raw": "http://localhost:3009/Mascotas/update/:id",
+              "protocol": "http",
+              "host": [
+                "localhost:3009"
+              ],
+              "path": [
+                "Mascotas",
+                "update"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Delete Mascota by ID",
+          "request": {
+            "method": "DELETE",
+            "url": {
+              "raw": "http://localhost:3009/Mascotas/delete/:id",
+              "protocol": "http",
+              "host": [
+                "localhost:3009"
+              ],
+              "path": [
+                "Mascotas",
+                "delete",
+                ":id"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Sexo",
+      "item": [
+        {
+          "name": "Get Sexos",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "http://localhost:3009/Sexos/",
+              "protocol": "http",
+              "host": [
+                "localhost:3009"
+              ],
+              "path": [
+                "Sexos"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Get Sexo by ID",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "http://localhost:3009/Sexos/:id",
+              "protocol": "http",
+              "host": [
+                "localhost:3009"
+              ],
+              "path": [
+                "Sexos",
+                ":id"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Create Sexo",
+          "request": {
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\"descripcion\":\"{{descripcion}}\"}"
+            },
+            "url": {
+              "raw": "http://localhost:3009/Sexos/create",
+              "protocol": "http",
+              "host": [
+                "localhost:3009"
+              ],
+              "path": [
+                "Sexos",
+                "create"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Update Sexo",
+          "request": {
+            "method": "PUT",
+            "body": {
+              "mode": "raw",
+              "raw": "{\"descripcion\":\"{{descripcion}}\"}"
+            },
+            "url": {
+              "raw": "http://localhost:3009/Sexos/update/:id",
+              "protocol": "http",
+              "host": [
+                "localhost:3009"
+              ],
+              "path": [
+                "Sexos",
+                "update"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Delete Sexo by ID",
+          "request": {
+            "method": "DELETE",
+            "url": {
+              "raw": "http://localhost:3009/Sexos/delete/:id",
+              "protocol": "http",
+              "host": [
+                "localhost:3009"
+              ],
+              "path": [
+                "Sexos",
+                "delete",
+                ":id"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Especie",
+      "item": [
+        {
+          "name": "Get Especies",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "http://localhost:3009/Especies/",
+              "protocol": "http",
+              "host": [
+                "localhost:3009"
+              ],
+              "path": [
+                "Especies"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Get Especie by ID",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "http://localhost:3009/Especies/:id",
+              "protocol": "http",
+              "host": [
+                "localhost:3009"
+              ],
+              "path": [
+                "Especies",
+                ":id"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Create Especie",
+          "request": {
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\"descripcion\":\"{{descripcion}}\"}"
+            },
+            "url": {
+              "raw": "http://localhost:3009/Especies/create",
+              "protocol": "http",
+              "host": [
+                "localhost:3009"
+              ],
+              "path": [
+                "Especies",
+                "create"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Update Especie",
+          "request": {
+            "method": "PUT",
+            "body": {
+              "mode": "raw",
+              "raw": "{\"descripcion\":\"{{descripcion}}\"}"
+            },
+            "url": {
+              "raw": "http://localhost:3009/Especies/update/:id",
+              "protocol": "http",
+              "host": [
+                "localhost:3009"
+              ],
+              "path": [
+                "Especies",
+                "update"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Delete Especie by ID",
+          "request": {
+            "method": "DELETE",
+            "url": {
+              "raw": "http://localhost:3009/Especies/delete/:id",
+              "protocol": "http",
+              "host": [
+                "localhost:3009"
+              ],
+              "path": [
+                "Especies",
+                "delete",
+                ":id"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Raza",
+      "item": [
+        {
+          "name": "Get Razas",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "http://localhost:3009/Razas/",
+              "protocol": "http",
+              "host": [
+                "localhost:3009"
+              ],
+              "path": [
+                "Razas"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Get Raza by ID",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "http://localhost:3009/Razas/:id",
+              "protocol": "http",
+              "host": [
+                "localhost:3009"
+              ],
+              "path": [
+                "Razas",
+                ":id"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Create Raza",
+          "request": {
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\"descripcion\":\"{{descripcion}}\",\"especie_id\":\"{{especie_id}}\"}"
+            },
+            "url": {
+              "raw": "http://localhost:3009/Razas/create",
+              "protocol": "http",
+              "host": [
+                "localhost:3009"
+              ],
+              "path": [
+                "Razas",
+                "create"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Update Raza",
+          "request": {
+            "method": "PUT",
+            "body": {
+              "mode": "raw",
+              "raw": "{\"descripcion\":\"{{descripcion}}\",\"especie_id\":\"{{especie_id}}\"}"
+            },
+            "url": {
+              "raw": "http://localhost:3009/Razas/update/:id",
+              "protocol": "http",
+              "host": [
+                "localhost:3009"
+              ],
+              "path": [
+                "Razas",
+                "update"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Delete Raza by ID",
+          "request": {
+            "method": "DELETE",
+            "url": {
+              "raw": "http://localhost:3009/Razas/delete/:id",
+              "protocol": "http",
+              "host": [
+                "localhost:3009"
+              ],
+              "path": [
+                "Razas",
+                "delete",
+                ":id"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Mascota",
+      "item": [
+        {
+          "name": "Get Mascotas",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "http://localhost:3009/Mascotas/",
+              "protocol": "http",
+              "host": [
+                "localhost:3009"
+              ],
+              "path": [
+                "Mascotas"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Get Mascota by ID",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "http://localhost:3009/Mascotas/:id",
+              "protocol": "http",
+              "host": [
+                "localhost:3009"
+              ],
+              "path": [
+                "Mascotas",
+                ":id"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Create Mascota",
+          "request": {
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\"nombre\":\"{{nombre}}\",\"especie_id\":\"{{especie_id}}\",\"raza_id\":\"{{raza_id}}\",\"fecha_nacimiento\":\"{{fecha_nacimiento}}\",\"peso\":\"{{peso}}\",\"sexo_id\":\"{{sexo_id}}\",\"cliente_id\":\"{{cliente_id}}\"}"
+            },
+            "url": {
+              "raw": "http://localhost:3009/Mascotas/create",
+              "protocol": "http",
+              "host": [
+                "localhost:3009"
+              ],
+              "path": [
+                "Mascotas",
+                "create"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Update Mascota",
+          "request": {
+            "method": "PUT",
+            "body": {
+              "mode": "raw",
+              "raw": "{\"nombre\":\"{{nombre}}\",\"especie_id\":\"{{especie_id}}\",\"raza_id\":\"{{raza_id}}\",\"fecha_nacimiento\":\"{{fecha_nacimiento}}\",\"peso\":\"{{peso}}\",\"sexo_id\":\"{{sexo_id}}\",\"cliente_id\":\"{{cliente_id}}\"}"
+            },
+            "url": {
+              "raw": "http://localhost:3009/Mascotas/update/:id",
+              "protocol": "http",
+              "host": [
+                "localhost:3009"
+              ],
+              "path": [
+                "Mascotas",
+                "update"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Delete Mascota by ID",
+          "request": {
+            "method": "DELETE",
+            "url": {
+              "raw": "http://localhost:3009/Mascotas/delete/:id",
+              "protocol": "http",
+              "host": [
+                "localhost:3009"
+              ],
+              "path": [
+                "Mascotas",
+                "delete",
+                ":id"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
     }
   ]
 }
