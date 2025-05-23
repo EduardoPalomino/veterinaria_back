@@ -49,13 +49,13 @@ export const saveHistoria_clinica = async (req: Request, res: Response) => {
             return res.status(201).json({ message: 'Historia_clinicas creados', data: items });
         }
 
-        const { mascota_id, fecha, motivo_consulta, diagnostico, tratamiento, observaciones, usuario_id } = req.body;
+        const { mascota_id, fecha, peso, tipo_visita, signo, alergia, fecha_proxima_control, frecuencia_cardiaca, frecuencia_respiratoria, temperatura, prueba_complementaria, tllc, diagnostico, tratamiento, archivo, atendido_por, usuario_id } = req.body;
 
-        if (!req.body.mascota_id || !req.body.fecha || !req.body.motivo_consulta || !req.body.diagnostico || !req.body.tratamiento || !req.body.observaciones || !req.body.usuario_id) {
+        if (!req.body.mascota_id || !req.body.fecha|| !req.body.usuario_id) {
             return res.status(400).json({ message: 'Faltan campos requeridos' });
         }
 
-        const newItem = new Historia_clinica({ mascota_id, fecha, motivo_consulta, diagnostico, tratamiento, observaciones, usuario_id });
+        const newItem = new Historia_clinica({ mascota_id, fecha, peso, tipo_visita, signo, alergia, fecha_proxima_control, frecuencia_cardiaca, frecuencia_respiratoria, temperatura, prueba_complementaria, tllc, diagnostico, tratamiento, archivo, atendido_por, usuario_id });
         await newItem.save();
 
         res.status(201).json({ message: 'Historia_clinica creado', data: newItem });
@@ -78,15 +78,15 @@ export const updateHistoria_clinica = async (req: Request, res: Response) => {
     try {
         const historia_clinicaId = req.params.id.trim();
         await conBD();
-        const { mascota_id, fecha, motivo_consulta, diagnostico, tratamiento, observaciones, usuario_id } = req.body;
+        const { mascota_id, fecha, peso, tipo_visita, signo, alergia, fecha_proxima_control, frecuencia_cardiaca, frecuencia_respiratoria, temperatura, prueba_complementaria, tllc, diagnostico, tratamiento, archivo, atendido_por, usuario_id } = req.body;
 
-        if (!req.body.mascota_id || !req.body.fecha || !req.body.motivo_consulta || !req.body.diagnostico || !req.body.tratamiento || !req.body.observaciones || !req.body.usuario_id) {
+        if (!req.body.mascota_id || !req.body.fecha || !req.body.usuario_id) {
             return res.status(400).json({ message: 'Faltan campos requeridos' });
         }
 
         const objectId = new ObjectId(historia_clinicaId);
         const updatedHistoria_clinica = await Historia_clinica.findByIdAndUpdate(objectId, {
-            mascota_id, fecha, motivo_consulta, diagnostico, tratamiento, observaciones, usuario_id
+            mascota_id, fecha, peso, tipo_visita, signo, alergia, fecha_proxima_control, frecuencia_cardiaca, frecuencia_respiratoria, temperatura, prueba_complementaria, tllc, diagnostico, tratamiento, archivo, atendido_por, usuario_id
         }, { new: true });
 
         if (!updatedHistoria_clinica) {

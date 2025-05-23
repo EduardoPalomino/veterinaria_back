@@ -13,10 +13,10 @@
           "request": {
             "method": "GET",
             "url": {
-              "raw": "http://localhost:3009/Rols/",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Rols/",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Rols"
@@ -30,10 +30,10 @@
           "request": {
             "method": "GET",
             "url": {
-              "raw": "http://localhost:3009/Rols/:id",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Rols/:id",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Rols",
@@ -52,10 +52,10 @@
               "raw": "{\"descripcion\":\"{{descripcion}}\"}"
             },
             "url": {
-              "raw": "http://localhost:3009/Rols/create",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Rols/create",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Rols",
@@ -74,10 +74,10 @@
               "raw": "{\"descripcion\":\"{{descripcion}}\"}"
             },
             "url": {
-              "raw": "http://localhost:3009/Rols/update/:id",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Rols/update/:id",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Rols",
@@ -92,10 +92,10 @@
           "request": {
             "method": "DELETE",
             "url": {
-              "raw": "http://localhost:3009/Rols/delete/:id",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Rols/delete/:id",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Rols",
@@ -116,10 +116,10 @@
           "request": {
             "method": "GET",
             "url": {
-              "raw": "http://localhost:3009/Usuarios/",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Usuarios/",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Usuarios"
@@ -133,10 +133,10 @@
           "request": {
             "method": "GET",
             "url": {
-              "raw": "http://localhost:3009/Usuarios/:id",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Usuarios/:id",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Usuarios",
@@ -155,10 +155,10 @@
               "raw": "{\"nombre\":\"{{nombre}}\",\"apellido\":\"{{apellido}}\",\"email\":\"{{email}}\",\"password\":\"{{password}}\",\"rol_id\":\"{{rol_id}}\"}"
             },
             "url": {
-              "raw": "http://localhost:3009/Usuarios/create",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Usuarios/create",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Usuarios",
@@ -177,10 +177,10 @@
               "raw": "{\"nombre\":\"{{nombre}}\",\"apellido\":\"{{apellido}}\",\"email\":\"{{email}}\",\"password\":\"{{password}}\",\"rol_id\":\"{{rol_id}}\"}"
             },
             "url": {
-              "raw": "http://localhost:3009/Usuarios/update/:id",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Usuarios/update/:id",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Usuarios",
@@ -195,10 +195,10 @@
           "request": {
             "method": "DELETE",
             "url": {
-              "raw": "http://localhost:3009/Usuarios/delete/:id",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Usuarios/delete/:id",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Usuarios",
@@ -219,10 +219,10 @@
           "request": {
             "method": "GET",
             "url": {
-              "raw": "http://localhost:3009/Clientes/",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Clientes/",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Clientes"
@@ -236,10 +236,10 @@
           "request": {
             "method": "GET",
             "url": {
-              "raw": "http://localhost:3009/Clientes/:id",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Clientes/:id",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Clientes",
@@ -258,10 +258,10 @@
               "raw": "{\"nombres\":\"{{nombres}}\",\"apellidos\":\"{{apellidos}}\",\"dni\":\"{{dni}}\",\"telefono\":\"{{telefono}}\",\"direccion\":\"{{direccion}}\",\"email\":\"{{email}}\",\"indicacion_general\":\"{{indicacion_general}}\"}"
             },
             "url": {
-              "raw": "http://localhost:3009/Clientes/create",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Clientes/create",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Clientes",
@@ -280,10 +280,10 @@
               "raw": "{\"nombres\":\"{{nombres}}\",\"apellidos\":\"{{apellidos}}\",\"dni\":\"{{dni}}\",\"telefono\":\"{{telefono}}\",\"direccion\":\"{{direccion}}\",\"email\":\"{{email}}\",\"indicacion_general\":\"{{indicacion_general}}\"}"
             },
             "url": {
-              "raw": "http://localhost:3009/Clientes/update/:id",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Clientes/update/:id",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Clientes",
@@ -298,10 +298,10 @@
           "request": {
             "method": "DELETE",
             "url": {
-              "raw": "http://localhost:3009/Clientes/delete/:id",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Clientes/delete/:id",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Clientes",
@@ -322,10 +322,10 @@
           "request": {
             "method": "GET",
             "url": {
-              "raw": "http://localhost:3009/Mascotas/",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Mascotas/",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Mascotas"
@@ -339,10 +339,10 @@
           "request": {
             "method": "GET",
             "url": {
-              "raw": "http://localhost:3009/Mascotas/:id",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Mascotas/:id",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Mascotas",
@@ -361,10 +361,10 @@
               "raw": "{\"nombre\":\"{{nombre}}\",\"especie\":\"{{especie}}\",\"raza\":\"{{raza}}\",\"fecha_nacimiento\":\"{{fecha_nacimiento}}\",\"peso\":\"{{peso}}\",\"sexo\":\"{{sexo}}\",\"cliente_id\":\"{{cliente_id}}\"}"
             },
             "url": {
-              "raw": "http://localhost:3009/Mascotas/create",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Mascotas/create",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Mascotas",
@@ -383,10 +383,10 @@
               "raw": "{\"nombre\":\"{{nombre}}\",\"especie\":\"{{especie}}\",\"raza\":\"{{raza}}\",\"fecha_nacimiento\":\"{{fecha_nacimiento}}\",\"peso\":\"{{peso}}\",\"sexo\":\"{{sexo}}\",\"cliente_id\":\"{{cliente_id}}\"}"
             },
             "url": {
-              "raw": "http://localhost:3009/Mascotas/update/:id",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Mascotas/update/:id",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Mascotas",
@@ -401,10 +401,10 @@
           "request": {
             "method": "DELETE",
             "url": {
-              "raw": "http://localhost:3009/Mascotas/delete/:id",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Mascotas/delete/:id",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Mascotas",
@@ -425,10 +425,10 @@
           "request": {
             "method": "GET",
             "url": {
-              "raw": "http://localhost:3009/Proveedors/",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Proveedors/",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Proveedors"
@@ -442,10 +442,10 @@
           "request": {
             "method": "GET",
             "url": {
-              "raw": "http://localhost:3009/Proveedors/:id",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Proveedors/:id",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Proveedors",
@@ -464,10 +464,10 @@
               "raw": "{\"nombre\":\"{{nombre}}\",\"ruc\":\"{{ruc}}\",\"telefono\":\"{{telefono}}\",\"email\":\"{{email}}\",\"direccion\":\"{{direccion}}\",\"contacto\":\"{{contacto}}\",\"observaciones\":\"{{observaciones}}\"}"
             },
             "url": {
-              "raw": "http://localhost:3009/Proveedors/create",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Proveedors/create",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Proveedors",
@@ -486,10 +486,10 @@
               "raw": "{\"nombre\":\"{{nombre}}\",\"ruc\":\"{{ruc}}\",\"telefono\":\"{{telefono}}\",\"email\":\"{{email}}\",\"direccion\":\"{{direccion}}\",\"contacto\":\"{{contacto}}\",\"observaciones\":\"{{observaciones}}\"}"
             },
             "url": {
-              "raw": "http://localhost:3009/Proveedors/update/:id",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Proveedors/update/:id",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Proveedors",
@@ -504,10 +504,10 @@
           "request": {
             "method": "DELETE",
             "url": {
-              "raw": "http://localhost:3009/Proveedors/delete/:id",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Proveedors/delete/:id",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Proveedors",
@@ -528,10 +528,10 @@
           "request": {
             "method": "GET",
             "url": {
-              "raw": "http://localhost:3009/Categoria_productos/",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Categoria_productos/",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Categoria_productos"
@@ -545,10 +545,10 @@
           "request": {
             "method": "GET",
             "url": {
-              "raw": "http://localhost:3009/Categoria_productos/:id",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Categoria_productos/:id",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Categoria_productos",
@@ -567,10 +567,10 @@
               "raw": "{\"nombre\":\"{{nombre}}\",\"descripcion\":\"{{descripcion}}\"}"
             },
             "url": {
-              "raw": "http://localhost:3009/Categoria_productos/create",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Categoria_productos/create",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Categoria_productos",
@@ -589,10 +589,10 @@
               "raw": "{\"nombre\":\"{{nombre}}\",\"descripcion\":\"{{descripcion}}\"}"
             },
             "url": {
-              "raw": "http://localhost:3009/Categoria_productos/update/:id",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Categoria_productos/update/:id",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Categoria_productos",
@@ -607,10 +607,10 @@
           "request": {
             "method": "DELETE",
             "url": {
-              "raw": "http://localhost:3009/Categoria_productos/delete/:id",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Categoria_productos/delete/:id",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Categoria_productos",
@@ -631,10 +631,10 @@
           "request": {
             "method": "GET",
             "url": {
-              "raw": "http://localhost:3009/Productos/",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Productos/",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Productos"
@@ -648,10 +648,10 @@
           "request": {
             "method": "GET",
             "url": {
-              "raw": "http://localhost:3009/Productos/:id",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Productos/:id",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Productos",
@@ -670,10 +670,10 @@
               "raw": "{\"nombre\":\"{{nombre}}\",\"categoria_producto_id\":\"{{categoria_producto_id}}\",\"tamano\":\"{{tamano}}\",\"precio_venta\":\"{{precio_venta}}\",\"stock\":\"{{stock}}\",\"descripcion\":\"{{descripcion}}\",\"proveedor_id\":\"{{proveedor_id}}\"}"
             },
             "url": {
-              "raw": "http://localhost:3009/Productos/create",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Productos/create",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Productos",
@@ -692,10 +692,10 @@
               "raw": "{\"nombre\":\"{{nombre}}\",\"categoria_producto_id\":\"{{categoria_producto_id}}\",\"tamano\":\"{{tamano}}\",\"precio_venta\":\"{{precio_venta}}\",\"stock\":\"{{stock}}\",\"descripcion\":\"{{descripcion}}\",\"proveedor_id\":\"{{proveedor_id}}\"}"
             },
             "url": {
-              "raw": "http://localhost:3009/Productos/update/:id",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Productos/update/:id",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Productos",
@@ -710,10 +710,10 @@
           "request": {
             "method": "DELETE",
             "url": {
-              "raw": "http://localhost:3009/Productos/delete/:id",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Productos/delete/:id",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Productos",
@@ -734,10 +734,10 @@
           "request": {
             "method": "GET",
             "url": {
-              "raw": "http://localhost:3009/Compras/",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Compras/",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Compras"
@@ -751,10 +751,10 @@
           "request": {
             "method": "GET",
             "url": {
-              "raw": "http://localhost:3009/Compras/:id",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Compras/:id",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Compras",
@@ -773,10 +773,10 @@
               "raw": "{\"fecha\":\"{{fecha}}\",\"total\":\"{{total}}\",\"proveedor_id\":\"{{proveedor_id}}\",\"usuario_id\":\"{{usuario_id}}\"}"
             },
             "url": {
-              "raw": "http://localhost:3009/Compras/create",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Compras/create",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Compras",
@@ -795,10 +795,10 @@
               "raw": "{\"fecha\":\"{{fecha}}\",\"total\":\"{{total}}\",\"proveedor_id\":\"{{proveedor_id}}\",\"usuario_id\":\"{{usuario_id}}\"}"
             },
             "url": {
-              "raw": "http://localhost:3009/Compras/update/:id",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Compras/update/:id",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Compras",
@@ -813,10 +813,10 @@
           "request": {
             "method": "DELETE",
             "url": {
-              "raw": "http://localhost:3009/Compras/delete/:id",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Compras/delete/:id",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Compras",
@@ -837,10 +837,10 @@
           "request": {
             "method": "GET",
             "url": {
-              "raw": "http://localhost:3009/Detalle_compras/",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Detalle_compras/",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Detalle_compras"
@@ -854,10 +854,10 @@
           "request": {
             "method": "GET",
             "url": {
-              "raw": "http://localhost:3009/Detalle_compras/:id",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Detalle_compras/:id",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Detalle_compras",
@@ -876,10 +876,10 @@
               "raw": "{\"compra_id\":\"{{compra_id}}\",\"producto_id\":\"{{producto_id}}\",\"cantidad\":\"{{cantidad}}\",\"precio_compra\":\"{{precio_compra}}\"}"
             },
             "url": {
-              "raw": "http://localhost:3009/Detalle_compras/create",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Detalle_compras/create",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Detalle_compras",
@@ -898,10 +898,10 @@
               "raw": "{\"compra_id\":\"{{compra_id}}\",\"producto_id\":\"{{producto_id}}\",\"cantidad\":\"{{cantidad}}\",\"precio_compra\":\"{{precio_compra}}\"}"
             },
             "url": {
-              "raw": "http://localhost:3009/Detalle_compras/update/:id",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Detalle_compras/update/:id",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Detalle_compras",
@@ -916,10 +916,10 @@
           "request": {
             "method": "DELETE",
             "url": {
-              "raw": "http://localhost:3009/Detalle_compras/delete/:id",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Detalle_compras/delete/:id",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Detalle_compras",
@@ -940,10 +940,10 @@
           "request": {
             "method": "GET",
             "url": {
-              "raw": "http://localhost:3009/Ventas/",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Ventas/",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Ventas"
@@ -957,10 +957,10 @@
           "request": {
             "method": "GET",
             "url": {
-              "raw": "http://localhost:3009/Ventas/:id",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Ventas/:id",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Ventas",
@@ -979,10 +979,10 @@
               "raw": "{\"fecha\":\"{{fecha}}\",\"total\":\"{{total}}\",\"cliente_id\":\"{{cliente_id}}\",\"usuario_id\":\"{{usuario_id}}\"}"
             },
             "url": {
-              "raw": "http://localhost:3009/Ventas/create",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Ventas/create",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Ventas",
@@ -1001,10 +1001,10 @@
               "raw": "{\"fecha\":\"{{fecha}}\",\"total\":\"{{total}}\",\"cliente_id\":\"{{cliente_id}}\",\"usuario_id\":\"{{usuario_id}}\"}"
             },
             "url": {
-              "raw": "http://localhost:3009/Ventas/update/:id",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Ventas/update/:id",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Ventas",
@@ -1019,10 +1019,10 @@
           "request": {
             "method": "DELETE",
             "url": {
-              "raw": "http://localhost:3009/Ventas/delete/:id",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Ventas/delete/:id",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Ventas",
@@ -1043,10 +1043,10 @@
           "request": {
             "method": "GET",
             "url": {
-              "raw": "http://localhost:3009/Detalle_ventas/",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Detalle_ventas/",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Detalle_ventas"
@@ -1060,10 +1060,10 @@
           "request": {
             "method": "GET",
             "url": {
-              "raw": "http://localhost:3009/Detalle_ventas/:id",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Detalle_ventas/:id",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Detalle_ventas",
@@ -1082,10 +1082,10 @@
               "raw": "{\"venta_id\":\"{{venta_id}}\",\"producto_id\":\"{{producto_id}}\",\"cantidad\":\"{{cantidad}}\",\"precio_venta\":\"{{precio_venta}}\"}"
             },
             "url": {
-              "raw": "http://localhost:3009/Detalle_ventas/create",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Detalle_ventas/create",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Detalle_ventas",
@@ -1104,10 +1104,10 @@
               "raw": "{\"venta_id\":\"{{venta_id}}\",\"producto_id\":\"{{producto_id}}\",\"cantidad\":\"{{cantidad}}\",\"precio_venta\":\"{{precio_venta}}\"}"
             },
             "url": {
-              "raw": "http://localhost:3009/Detalle_ventas/update/:id",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Detalle_ventas/update/:id",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Detalle_ventas",
@@ -1122,10 +1122,10 @@
           "request": {
             "method": "DELETE",
             "url": {
-              "raw": "http://localhost:3009/Detalle_ventas/delete/:id",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Detalle_ventas/delete/:id",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Detalle_ventas",
@@ -1146,10 +1146,10 @@
           "request": {
             "method": "GET",
             "url": {
-              "raw": "http://localhost:3009/Historia_clinicas/",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Historia_clinicas/",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Historia_clinicas"
@@ -1163,10 +1163,10 @@
           "request": {
             "method": "GET",
             "url": {
-              "raw": "http://localhost:3009/Historia_clinicas/:id",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Historia_clinicas/:id",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Historia_clinicas",
@@ -1185,10 +1185,10 @@
               "raw": "{\"mascota_id\":\"{{mascota_id}}\",\"fecha\":\"{{fecha}}\",\"motivo_consulta\":\"{{motivo_consulta}}\",\"diagnostico\":\"{{diagnostico}}\",\"tratamiento\":\"{{tratamiento}}\",\"observaciones\":\"{{observaciones}}\",\"usuario_id\":\"{{usuario_id}}\"}"
             },
             "url": {
-              "raw": "http://localhost:3009/Historia_clinicas/create",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Historia_clinicas/create",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Historia_clinicas",
@@ -1207,10 +1207,10 @@
               "raw": "{\"mascota_id\":\"{{mascota_id}}\",\"fecha\":\"{{fecha}}\",\"motivo_consulta\":\"{{motivo_consulta}}\",\"diagnostico\":\"{{diagnostico}}\",\"tratamiento\":\"{{tratamiento}}\",\"observaciones\":\"{{observaciones}}\",\"usuario_id\":\"{{usuario_id}}\"}"
             },
             "url": {
-              "raw": "http://localhost:3009/Historia_clinicas/update/:id",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Historia_clinicas/update/:id",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Historia_clinicas",
@@ -1225,10 +1225,10 @@
           "request": {
             "method": "DELETE",
             "url": {
-              "raw": "http://localhost:3009/Historia_clinicas/delete/:id",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Historia_clinicas/delete/:id",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Historia_clinicas",
@@ -1249,10 +1249,10 @@
           "request": {
             "method": "GET",
             "url": {
-              "raw": "http://localhost:3009/Reportes/",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Reportes/",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Reportes"
@@ -1266,10 +1266,10 @@
           "request": {
             "method": "GET",
             "url": {
-              "raw": "http://localhost:3009/Reportes/:id",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Reportes/:id",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Reportes",
@@ -1288,10 +1288,10 @@
               "raw": "{\"tipo_reporte\":\"{{tipo_reporte}}\",\"fecha_generado\":\"{{fecha_generado}}\",\"contenido\":\"{{contenido}}\",\"usuario_id\":\"{{usuario_id}}\"}"
             },
             "url": {
-              "raw": "http://localhost:3009/Reportes/create",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Reportes/create",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Reportes",
@@ -1310,10 +1310,10 @@
               "raw": "{\"tipo_reporte\":\"{{tipo_reporte}}\",\"fecha_generado\":\"{{fecha_generado}}\",\"contenido\":\"{{contenido}}\",\"usuario_id\":\"{{usuario_id}}\"}"
             },
             "url": {
-              "raw": "http://localhost:3009/Reportes/update/:id",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Reportes/update/:id",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Reportes",
@@ -1328,10 +1328,10 @@
           "request": {
             "method": "DELETE",
             "url": {
-              "raw": "http://localhost:3009/Reportes/delete/:id",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Reportes/delete/:id",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Reportes",
@@ -1352,10 +1352,10 @@
           "request": {
             "method": "GET",
             "url": {
-              "raw": "http://localhost:3009/Sexos/",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Sexos/",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Sexos"
@@ -1369,10 +1369,10 @@
           "request": {
             "method": "GET",
             "url": {
-              "raw": "http://localhost:3009/Sexos/:id",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Sexos/:id",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Sexos",
@@ -1391,10 +1391,10 @@
               "raw": "{\"descripcion\":\"{{descripcion}}\"}"
             },
             "url": {
-              "raw": "http://localhost:3009/Sexos/create",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Sexos/create",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Sexos",
@@ -1413,10 +1413,10 @@
               "raw": "{\"descripcion\":\"{{descripcion}}\"}"
             },
             "url": {
-              "raw": "http://localhost:3009/Sexos/update/:id",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Sexos/update/:id",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Sexos",
@@ -1431,10 +1431,10 @@
           "request": {
             "method": "DELETE",
             "url": {
-              "raw": "http://localhost:3009/Sexos/delete/:id",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Sexos/delete/:id",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Sexos",
@@ -1455,10 +1455,10 @@
           "request": {
             "method": "GET",
             "url": {
-              "raw": "http://localhost:3009/Mascotas/",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Mascotas/",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Mascotas"
@@ -1472,10 +1472,10 @@
           "request": {
             "method": "GET",
             "url": {
-              "raw": "http://localhost:3009/Mascotas/:id",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Mascotas/:id",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Mascotas",
@@ -1494,10 +1494,10 @@
               "raw": "{\"nombre\":\"{{nombre}}\",\"especie\":\"{{especie}}\",\"raza\":\"{{raza}}\",\"fecha_nacimiento\":\"{{fecha_nacimiento}}\",\"peso\":\"{{peso}}\",\"sexo_id\":\"{{sexo_id}}\",\"cliente_id\":\"{{cliente_id}}\"}"
             },
             "url": {
-              "raw": "http://localhost:3009/Mascotas/create",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Mascotas/create",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Mascotas",
@@ -1516,10 +1516,10 @@
               "raw": "{\"nombre\":\"{{nombre}}\",\"especie\":\"{{especie}}\",\"raza\":\"{{raza}}\",\"fecha_nacimiento\":\"{{fecha_nacimiento}}\",\"peso\":\"{{peso}}\",\"sexo_id\":\"{{sexo_id}}\",\"cliente_id\":\"{{cliente_id}}\"}"
             },
             "url": {
-              "raw": "http://localhost:3009/Mascotas/update/:id",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Mascotas/update/:id",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Mascotas",
@@ -1534,10 +1534,10 @@
           "request": {
             "method": "DELETE",
             "url": {
-              "raw": "http://localhost:3009/Mascotas/delete/:id",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Mascotas/delete/:id",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Mascotas",
@@ -1558,10 +1558,10 @@
           "request": {
             "method": "GET",
             "url": {
-              "raw": "http://localhost:3009/Sexos/",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Sexos/",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Sexos"
@@ -1575,10 +1575,10 @@
           "request": {
             "method": "GET",
             "url": {
-              "raw": "http://localhost:3009/Sexos/:id",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Sexos/:id",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Sexos",
@@ -1597,10 +1597,10 @@
               "raw": "{\"descripcion\":\"{{descripcion}}\"}"
             },
             "url": {
-              "raw": "http://localhost:3009/Sexos/create",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Sexos/create",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Sexos",
@@ -1619,10 +1619,10 @@
               "raw": "{\"descripcion\":\"{{descripcion}}\"}"
             },
             "url": {
-              "raw": "http://localhost:3009/Sexos/update/:id",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Sexos/update/:id",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Sexos",
@@ -1637,10 +1637,10 @@
           "request": {
             "method": "DELETE",
             "url": {
-              "raw": "http://localhost:3009/Sexos/delete/:id",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Sexos/delete/:id",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Sexos",
@@ -1661,10 +1661,10 @@
           "request": {
             "method": "GET",
             "url": {
-              "raw": "http://localhost:3009/Especies/",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Especies/",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Especies"
@@ -1678,10 +1678,10 @@
           "request": {
             "method": "GET",
             "url": {
-              "raw": "http://localhost:3009/Especies/:id",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Especies/:id",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Especies",
@@ -1700,10 +1700,10 @@
               "raw": "{\"descripcion\":\"{{descripcion}}\"}"
             },
             "url": {
-              "raw": "http://localhost:3009/Especies/create",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Especies/create",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Especies",
@@ -1722,10 +1722,10 @@
               "raw": "{\"descripcion\":\"{{descripcion}}\"}"
             },
             "url": {
-              "raw": "http://localhost:3009/Especies/update/:id",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Especies/update/:id",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Especies",
@@ -1740,10 +1740,10 @@
           "request": {
             "method": "DELETE",
             "url": {
-              "raw": "http://localhost:3009/Especies/delete/:id",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Especies/delete/:id",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Especies",
@@ -1764,10 +1764,10 @@
           "request": {
             "method": "GET",
             "url": {
-              "raw": "http://localhost:3009/Razas/",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Razas/",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Razas"
@@ -1781,10 +1781,10 @@
           "request": {
             "method": "GET",
             "url": {
-              "raw": "http://localhost:3009/Razas/:id",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Razas/:id",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Razas",
@@ -1803,10 +1803,10 @@
               "raw": "{\"descripcion\":\"{{descripcion}}\",\"especie_id\":\"{{especie_id}}\"}"
             },
             "url": {
-              "raw": "http://localhost:3009/Razas/create",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Razas/create",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Razas",
@@ -1825,10 +1825,10 @@
               "raw": "{\"descripcion\":\"{{descripcion}}\",\"especie_id\":\"{{especie_id}}\"}"
             },
             "url": {
-              "raw": "http://localhost:3009/Razas/update/:id",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Razas/update/:id",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Razas",
@@ -1843,10 +1843,10 @@
           "request": {
             "method": "DELETE",
             "url": {
-              "raw": "http://localhost:3009/Razas/delete/:id",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Razas/delete/:id",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Razas",
@@ -1867,10 +1867,10 @@
           "request": {
             "method": "GET",
             "url": {
-              "raw": "http://localhost:3009/Mascotas/",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Mascotas/",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Mascotas"
@@ -1884,10 +1884,10 @@
           "request": {
             "method": "GET",
             "url": {
-              "raw": "http://localhost:3009/Mascotas/:id",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Mascotas/:id",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Mascotas",
@@ -1906,10 +1906,10 @@
               "raw": "{\"nombre\":\"{{nombre}}\",\"especie_id\":\"{{especie_id}}\",\"raza_id\":\"{{raza_id}}\",\"fecha_nacimiento\":\"{{fecha_nacimiento}}\",\"peso\":\"{{peso}}\",\"sexo_id\":\"{{sexo_id}}\",\"cliente_id\":\"{{cliente_id}}\"}"
             },
             "url": {
-              "raw": "http://localhost:3009/Mascotas/create",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Mascotas/create",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Mascotas",
@@ -1928,10 +1928,10 @@
               "raw": "{\"nombre\":\"{{nombre}}\",\"especie_id\":\"{{especie_id}}\",\"raza_id\":\"{{raza_id}}\",\"fecha_nacimiento\":\"{{fecha_nacimiento}}\",\"peso\":\"{{peso}}\",\"sexo_id\":\"{{sexo_id}}\",\"cliente_id\":\"{{cliente_id}}\"}"
             },
             "url": {
-              "raw": "http://localhost:3009/Mascotas/update/:id",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Mascotas/update/:id",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Mascotas",
@@ -1946,13 +1946,425 @@
           "request": {
             "method": "DELETE",
             "url": {
-              "raw": "http://localhost:3009/Mascotas/delete/:id",
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Mascotas/delete/:id",
               "protocol": "http",
               "host": [
-                "localhost:3009"
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
               ],
               "path": [
                 "Mascotas",
+                "delete",
+                ":id"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Producto",
+      "item": [
+        {
+          "name": "Get Productos",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Productos/",
+              "protocol": "http",
+              "host": [
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
+              ],
+              "path": [
+                "Productos"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Get Producto by ID",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Productos/:id",
+              "protocol": "http",
+              "host": [
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
+              ],
+              "path": [
+                "Productos",
+                ":id"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Create Producto",
+          "request": {
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\"nombre\":\"{{nombre}}\",\"foto\":\"{{foto}}\",\"categoria_producto_id\":\"{{categoria_producto_id}}\",\"tamano\":\"{{tamano}}\",\"precio_venta\":\"{{precio_venta}}\",\"stock\":\"{{stock}}\",\"descripcion\":\"{{descripcion}}\",\"proveedor_id\":\"{{proveedor_id}}\"}"
+            },
+            "url": {
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Productos/create",
+              "protocol": "http",
+              "host": [
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
+              ],
+              "path": [
+                "Productos",
+                "create"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Update Producto",
+          "request": {
+            "method": "PUT",
+            "body": {
+              "mode": "raw",
+              "raw": "{\"nombre\":\"{{nombre}}\",\"foto\":\"{{foto}}\",\"categoria_producto_id\":\"{{categoria_producto_id}}\",\"tamano\":\"{{tamano}}\",\"precio_venta\":\"{{precio_venta}}\",\"stock\":\"{{stock}}\",\"descripcion\":\"{{descripcion}}\",\"proveedor_id\":\"{{proveedor_id}}\"}"
+            },
+            "url": {
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Productos/update/:id",
+              "protocol": "http",
+              "host": [
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
+              ],
+              "path": [
+                "Productos",
+                "update"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Delete Producto by ID",
+          "request": {
+            "method": "DELETE",
+            "url": {
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Productos/delete/:id",
+              "protocol": "http",
+              "host": [
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
+              ],
+              "path": [
+                "Productos",
+                "delete",
+                ":id"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Mascota",
+      "item": [
+        {
+          "name": "Get Mascotas",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Mascotas/",
+              "protocol": "http",
+              "host": [
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
+              ],
+              "path": [
+                "Mascotas"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Get Mascota by ID",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Mascotas/:id",
+              "protocol": "http",
+              "host": [
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
+              ],
+              "path": [
+                "Mascotas",
+                ":id"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Create Mascota",
+          "request": {
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\"nombre\":\"{{nombre}}\",\"foto\":\"{{foto}}\",\"especie_id\":\"{{especie_id}}\",\"raza_id\":\"{{raza_id}}\",\"fecha_nacimiento\":\"{{fecha_nacimiento}}\",\"peso\":\"{{peso}}\",\"sexo_id\":\"{{sexo_id}}\",\"cliente_id\":\"{{cliente_id}}\"}"
+            },
+            "url": {
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Mascotas/create",
+              "protocol": "http",
+              "host": [
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
+              ],
+              "path": [
+                "Mascotas",
+                "create"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Update Mascota",
+          "request": {
+            "method": "PUT",
+            "body": {
+              "mode": "raw",
+              "raw": "{\"nombre\":\"{{nombre}}\",\"foto\":\"{{foto}}\",\"especie_id\":\"{{especie_id}}\",\"raza_id\":\"{{raza_id}}\",\"fecha_nacimiento\":\"{{fecha_nacimiento}}\",\"peso\":\"{{peso}}\",\"sexo_id\":\"{{sexo_id}}\",\"cliente_id\":\"{{cliente_id}}\"}"
+            },
+            "url": {
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Mascotas/update/:id",
+              "protocol": "http",
+              "host": [
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
+              ],
+              "path": [
+                "Mascotas",
+                "update"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Delete Mascota by ID",
+          "request": {
+            "method": "DELETE",
+            "url": {
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Mascotas/delete/:id",
+              "protocol": "http",
+              "host": [
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
+              ],
+              "path": [
+                "Mascotas",
+                "delete",
+                ":id"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Historia_clinica",
+      "item": [
+        {
+          "name": "Get Historia_clinicas",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Historia_clinicas/",
+              "protocol": "http",
+              "host": [
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
+              ],
+              "path": [
+                "Historia_clinicas"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Get Historia_clinica by ID",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Historia_clinicas/:id",
+              "protocol": "http",
+              "host": [
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
+              ],
+              "path": [
+                "Historia_clinicas",
+                ":id"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Create Historia_clinica",
+          "request": {
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\"mascota_id\":\"{{mascota_id}}\",\"fecha\":\"{{fecha}}\",\"peso\":\"{{peso}}\",\"tipo_visita\":\"{{tipo_visita}}\",\"signo\":\"{{signo}}\",\"alergia\":\"{{alergia}}\",\"fecha_proxima_control\":\"{{fecha_proxima_control}}\",\"frecuencia_cardiaca\":\"{{frecuencia_cardiaca}}\",\"frecuencia_respiratoria\":\"{{frecuencia_respiratoria}}\",\"temperatura\":\"{{temperatura}}\",\"prueba_complementaria\":\"{{prueba_complementaria}}\",\"tllc\":\"{{tllc}}\",\"diagnostico\":\"{{diagnostico}}\",\"tratamiento\":\"{{tratamiento}}\",\"archivo\":\"{{archivo}}\",\"atendido_por\":\"{{atendido_por}}\",\"usuario_id\":\"{{usuario_id}}\"}"
+            },
+            "url": {
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Historia_clinicas/create",
+              "protocol": "http",
+              "host": [
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
+              ],
+              "path": [
+                "Historia_clinicas",
+                "create"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Update Historia_clinica",
+          "request": {
+            "method": "PUT",
+            "body": {
+              "mode": "raw",
+              "raw": "{\"mascota_id\":\"{{mascota_id}}\",\"fecha\":\"{{fecha}}\",\"peso\":\"{{peso}}\",\"tipo_visita\":\"{{tipo_visita}}\",\"signo\":\"{{signo}}\",\"alergia\":\"{{alergia}}\",\"fecha_proxima_control\":\"{{fecha_proxima_control}}\",\"frecuencia_cardiaca\":\"{{frecuencia_cardiaca}}\",\"frecuencia_respiratoria\":\"{{frecuencia_respiratoria}}\",\"temperatura\":\"{{temperatura}}\",\"prueba_complementaria\":\"{{prueba_complementaria}}\",\"tllc\":\"{{tllc}}\",\"diagnostico\":\"{{diagnostico}}\",\"tratamiento\":\"{{tratamiento}}\",\"archivo\":\"{{archivo}}\",\"atendido_por\":\"{{atendido_por}}\",\"usuario_id\":\"{{usuario_id}}\"}"
+            },
+            "url": {
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Historia_clinicas/update/:id",
+              "protocol": "http",
+              "host": [
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
+              ],
+              "path": [
+                "Historia_clinicas",
+                "update"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Delete Historia_clinica by ID",
+          "request": {
+            "method": "DELETE",
+            "url": {
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Historia_clinicas/delete/:id",
+              "protocol": "http",
+              "host": [
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
+              ],
+              "path": [
+                "Historia_clinicas",
+                "delete",
+                ":id"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Pago",
+      "item": [
+        {
+          "name": "Get Pagos",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Pagos/",
+              "protocol": "http",
+              "host": [
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
+              ],
+              "path": [
+                "Pagos"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Get Pago by ID",
+          "request": {
+            "method": "GET",
+            "url": {
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Pagos/:id",
+              "protocol": "http",
+              "host": [
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
+              ],
+              "path": [
+                "Pagos",
+                ":id"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Create Pago",
+          "request": {
+            "method": "POST",
+            "body": {
+              "mode": "raw",
+              "raw": "{\"venta_id\":\"{{venta_id}}\",\"cuota\":\"{{cuota}}\",\"monto\":\"{{monto}}\",\"estado\":\"{{estado}}\",\"fecha_pago\":\"{{fecha_pago}}\",\"fecha_vencimiento\":\"{{fecha_vencimiento}}\"}"
+            },
+            "url": {
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Pagos/create",
+              "protocol": "http",
+              "host": [
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
+              ],
+              "path": [
+                "Pagos",
+                "create"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Update Pago",
+          "request": {
+            "method": "PUT",
+            "body": {
+              "mode": "raw",
+              "raw": "{\"venta_id\":\"{{venta_id}}\",\"cuota\":\"{{cuota}}\",\"monto\":\"{{monto}}\",\"estado\":\"{{estado}}\",\"fecha_pago\":\"{{fecha_pago}}\",\"fecha_vencimiento\":\"{{fecha_vencimiento}}\"}"
+            },
+            "url": {
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Pagos/update/:id",
+              "protocol": "http",
+              "host": [
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
+              ],
+              "path": [
+                "Pagos",
+                "update"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Delete Pago by ID",
+          "request": {
+            "method": "DELETE",
+            "url": {
+              "raw": "https://veterinaria-back-5ca7aec509fb.herokuapp.com/Pagos/delete/:id",
+              "protocol": "http",
+              "host": [
+                "veterinaria-back-5ca7aec509fb.herokuapp.com"
+              ],
+              "path": [
+                "Pagos",
                 "delete",
                 ":id"
               ]

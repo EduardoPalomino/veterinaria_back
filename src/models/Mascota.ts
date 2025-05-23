@@ -2,6 +2,7 @@ import mongoose from 'mongoose';
 
 const MascotaSchema = new mongoose.Schema({
   nombre: String,
+  foto: String,
   especie_id: { type: mongoose.Schema.Types.ObjectId, ref: 'especie' },
   raza_id: { type: mongoose.Schema.Types.ObjectId, ref: 'raza' },
   fecha_nacimiento: String,

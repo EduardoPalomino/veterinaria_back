@@ -55,13 +55,13 @@ export const saveMascota = async (req: Request, res: Response) => {
             return res.status(201).json({ message: 'Mascotas creados', data: items });
         }
 
-        const { nombre, especie_id, raza_id, fecha_nacimiento, peso, sexo_id, cliente_id } = req.body;
+        const { nombre,foto, especie_id, raza_id, fecha_nacimiento, peso, sexo_id, cliente_id } = req.body;
 
         if (!req.body.nombre || !req.body.especie_id || !req.body.raza_id || !req.body.fecha_nacimiento || !req.body.peso || !req.body.sexo_id || !req.body.cliente_id) {
             return res.status(400).json({ message: 'Faltan campos requeridos' });
         }
 
-        const newItem = new Mascota({ nombre, especie_id, raza_id, fecha_nacimiento, peso, sexo_id, cliente_id });
+        const newItem = new Mascota({ nombre,foto, especie_id, raza_id, fecha_nacimiento, peso, sexo_id, cliente_id });
         await newItem.save();
 
         res.status(201).json({ message: 'Mascota creado', data: newItem });
@@ -84,7 +84,7 @@ export const updateMascota = async (req: Request, res: Response) => {
     try {
         const mascotaId = req.params.id.trim();
         await conBD();
-        const { nombre, especie_id, raza_id, fecha_nacimiento, peso, sexo_id, cliente_id } = req.body;
+        const { nombre,foto, especie_id, raza_id, fecha_nacimiento, peso, sexo_id, cliente_id } = req.body;
 
         if (!req.body.nombre || !req.body.especie_id || !req.body.raza_id || !req.body.fecha_nacimiento || !req.body.peso || !req.body.sexo_id || !req.body.cliente_id) {
             return res.status(400).json({ message: 'Faltan campos requeridos' });
@@ -92,7 +92,7 @@ export const updateMascota = async (req: Request, res: Response) => {
 
         const objectId = new ObjectId(mascotaId);
         const updatedMascota = await Mascota.findByIdAndUpdate(objectId, {
-            nombre, especie_id, raza_id, fecha_nacimiento, peso, sexo_id, cliente_id
+            nombre,foto, especie_id, raza_id, fecha_nacimiento, peso, sexo_id, cliente_id
         }, { new: true });
 
         if (!updatedMascota) {
