@@ -48,7 +48,7 @@ export const savePago = async (req: Request, res: Response) => {
 
         const { venta_id, cuota, monto, estado, fecha_pago, fecha_vencimiento } = req.body;
 
-        if (!req.body.venta_id || !req.body.cuota || !req.body.monto || !req.body.estado || !req.body.fecha_pago || !req.body.fecha_vencimiento) {
+        if (!req.body.venta_id || !req.body.cuota || !req.body.monto || !req.body.estado || !req.body.fecha_pago) {
             return res.status(400).json({ message: 'Faltan campos requeridos' });
         }
 
@@ -77,7 +77,7 @@ export const updatePago = async (req: Request, res: Response) => {
         await conBD();
         const { venta_id, cuota, monto, estado, fecha_pago, fecha_vencimiento } = req.body;
 
-        if (!req.body.venta_id || !req.body.cuota || !req.body.monto || !req.body.estado || !req.body.fecha_pago || !req.body.fecha_vencimiento) {
+        if (!req.body.venta_id || !req.body.cuota || !req.body.monto || !req.body.estado || !req.body.fecha_pago) {
             return res.status(400).json({ message: 'Faltan campos requeridos' });
         }
 
