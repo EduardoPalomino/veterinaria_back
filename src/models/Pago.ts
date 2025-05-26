@@ -2,6 +2,7 @@ import mongoose from 'mongoose';
 
 const PagoSchema = new mongoose.Schema({
   venta_id: { type: mongoose.Schema.Types.ObjectId, ref: 'venta' },
+  medio_pago: String,
   cuota: String,
   monto: String,
   estado: String,

@@ -46,13 +46,13 @@ export const savePago = async (req: Request, res: Response) => {
             return res.status(201).json({ message: 'Pagos creados', data: items });
         }
 
-        const { venta_id, cuota, monto, estado, fecha_pago, fecha_vencimiento } = req.body;
+        const { venta_id, medio_pago, cuota, monto, estado, fecha_pago, fecha_vencimiento } = req.body;
 
         if (!req.body.venta_id || !req.body.cuota || !req.body.monto || !req.body.estado || !req.body.fecha_pago) {
             return res.status(400).json({ message: 'Faltan campos requeridos' });
         }
 
-        const newItem = new Pago({ venta_id, cuota, monto, estado, fecha_pago, fecha_vencimiento });
+        const newItem = new Pago({ venta_id,medio_pago, cuota, monto, estado, fecha_pago, fecha_vencimiento });
         await newItem.save();
 
         res.status(201).json({ message: 'Pago creado', data: newItem });
@@ -75,7 +75,7 @@ export const updatePago = async (req: Request, res: Response) => {
     try {
         const pagoId = req.params.id.trim();
         await conBD();
-        const { venta_id, cuota, monto, estado, fecha_pago, fecha_vencimiento } = req.body;
+        const { venta_id,medio_pago, cuota, monto, estado, fecha_pago, fecha_vencimiento } = req.body;
 
         if (!req.body.venta_id || !req.body.cuota || !req.body.monto || !req.body.estado || !req.body.fecha_pago) {
             return res.status(400).json({ message: 'Faltan campos requeridos' });
@@ -83,7 +83,7 @@ export const updatePago = async (req: Request, res: Response) => {
 
         const objectId = new ObjectId(pagoId);
         const updatedPago = await Pago.findByIdAndUpdate(objectId, {
-            venta_id, cuota, monto, estado, fecha_pago, fecha_vencimiento
+            venta_id,medio_pago, cuota, monto, estado, fecha_pago, fecha_vencimiento
         }, { new: true });
 
         if (!updatedPago) {

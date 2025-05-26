@@ -3,6 +3,9 @@ import mongoose from 'mongoose';
 const VentaSchema = new mongoose.Schema({
   fecha: String,
   total: String,
+  tipo_pago: String,
+  cantidad_cuota: Number,
+  estado: String,
   cliente_id: { type: mongoose.Schema.Types.ObjectId, ref: 'cliente' },
   usuario_id: { type: mongoose.Schema.Types.ObjectId, ref: 'usuario' },
   created_at: { type: Date, default: Date.now },
