@@ -3,6 +3,7 @@ import mongoose from 'mongoose';
 const ProductoSchema = new mongoose.Schema({
   nombre: String,
   foto: String,
+  codigo_barras: String,
   categoria_producto_id: { type: mongoose.Schema.Types.ObjectId, ref: 'categoria_producto' },
   tamano: String,
   precio_venta: String,

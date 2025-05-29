@@ -49,13 +49,13 @@ export const saveProducto = async (req: Request, res: Response) => {
             return res.status(201).json({ message: 'Productos creados', data: items });
         }
 
-        const { nombre,foto, categoria_producto_id, tamano, precio_venta, stock, descripcion, proveedor_id } = req.body;
+        const { nombre,foto,codigo_barras, categoria_producto_id, tamano, precio_venta, stock, descripcion, proveedor_id } = req.body;
 
         if (!req.body.nombre || !req.body.categoria_producto_id || !req.body.tamano || !req.body.precio_venta || !req.body.stock || !req.body.descripcion || !req.body.proveedor_id) {
             return res.status(400).json({ message: 'Faltan campos requeridos' });
         }
 
-        const newItem = new Producto({ nombre,foto, categoria_producto_id, tamano, precio_venta, stock, descripcion, proveedor_id });
+        const newItem = new Producto({ nombre,foto,codigo_barras, categoria_producto_id, tamano, precio_venta, stock, descripcion, proveedor_id });
         await newItem.save();
 
         res.status(201).json({ message: 'Producto creado', data: newItem });
@@ -78,7 +78,7 @@ export const updateProducto = async (req: Request, res: Response) => {
     try {
         const productoId = req.params.id.trim();
         await conBD();
-        const { nombre,foto, categoria_producto_id, tamano, precio_venta, stock, descripcion, proveedor_id } = req.body;
+        const { nombre,foto,codigo_barras, categoria_producto_id, tamano, precio_venta, stock, descripcion, proveedor_id } = req.body;
 
         if (!req.body.nombre || !req.body.categoria_producto_id || !req.body.tamano || !req.body.precio_venta || !req.body.stock || !req.body.descripcion || !req.body.proveedor_id) {
             return res.status(400).json({ message: 'Faltan campos requeridos' });
@@ -86,7 +86,7 @@ export const updateProducto = async (req: Request, res: Response) => {
 
         const objectId = new ObjectId(productoId);
         const updatedProducto = await Producto.findByIdAndUpdate(objectId, {
-            nombre,foto, categoria_producto_id, tamano, precio_venta, stock, descripcion, proveedor_id
+            nombre,foto,codigo_barras, categoria_producto_id, tamano, precio_venta, stock, descripcion, proveedor_id
         }, { new: true });
 
         if (!updatedProducto) {
