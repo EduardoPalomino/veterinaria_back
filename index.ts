@@ -18,6 +18,7 @@ import Detalle_VentaRouter from './src/routes/detalle_venta';
 import Historia_ClinicaRouter from './src/routes/historia_clinica';
 import reporteRouter from './src/routes/reporte';
 import pagoRouter from './src/routes/pago';
+import uploadRouter from './src/routes/upload';
 
 import {connectToDatabase} from './src/config/try_conexion';
 
@@ -70,9 +71,10 @@ app.use('/', Detalle_VentaRouter);
 app.use('/', Historia_ClinicaRouter);
 app.use('/', reporteRouter);
 app.use('/', pagoRouter);
+app.use('/', uploadRouter);
 
 //app.use('api/utils/file', utilsRouter);
-app.use("/uploads", express.static("./dist/src/routes/uploads"))
+app.use("/uploads", express.static("uploads"));
 //const dbUri: string = `mongodb://${DB_DOMAIN}:${DB_PORT}/${DB}`;
 
 connectToDatabase(); //call BD
