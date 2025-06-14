@@ -1,11 +1,68 @@
+import jwt from 'jsonwebtoken';
+import bcrypt from 'bcryptjs';
 import { Request, Response } from 'express';
 import conBD from '../config/conexion';
 import mongoose from 'mongoose';
-
 import Usuario from '../models/Usuario';
 import Rol from '../models/Rol';
 
+const JWT_SECRET = process.env.JWT_SECRET || 'clave-secreta-elegante';
 const ObjectId = mongoose.Types.ObjectId;
+
+// Función de login (nueva)
+export const loginUsuario = async (req: Request, res: Response) => {
+    try {
+        const { email, password } = req.body;
+
+        await conBD();
+        const usuario = await Usuario.findOne({ email });
+
+        if (!usuario) {
+            return res.status(401).json({ message: 'Credenciales inválidas' });
+        }
+
+        // Compara contraseñas con bcrypt (asegúrate de guardar passwords hasheadas)
+        const isMatch = (password === usuario.password);
+
+        if (!isMatch) {
+            return res.status(401).json({ message: 'Credenciales inválidas' });
+        }
+
+        // Genera un JWT elegante
+        const token = jwt.sign(
+            { id: usuario._id, email: usuario.email, rol_id: usuario.rol_id },
+            JWT_SECRET,
+            { expiresIn: '8h' } // Sesión de 8 horas
+        );
+
+        // Respuesta minimalista
+        res.json({
+            success: true,
+            token,
+            user: { nombre: usuario.nombre, email: usuario.email, rol_id: usuario.rol_id }
+        });
+
+    } catch (error) {
+        res.status(500).json({ message: 'Error en el servidor', error: error});
+    }
+};
+
+// Función para verificar token (opcional, útil para rutas protegidas)
+export const verifyToken = (req: Request, res: Response, next: Function) => {
+    const token = req.headers.authorization?.split(' ')[1];
+
+    if (!token) {
+        return res.status(403).json({ message: 'Token no proporcionado' });
+    }
+
+    jwt.verify(token, JWT_SECRET, (err, decoded) => {
+        if (err) {
+            return res.status(401).json({ message: 'Token inválido o expirado' });
+        }
+        Object.assign(req, { user: decoded }); // Añade los datos del usuario al request
+        next();
+    });
+};
 
 export const getUsuarios = async (req: Request, res: Response) => {
     try {

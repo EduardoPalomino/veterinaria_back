@@ -1,4 +1,5 @@
 import express, { Express,Router} from 'express';
+import path from 'path';
 import dotenv from 'dotenv';
 
 import rolRouter from './src/routes/rol';
@@ -18,6 +19,8 @@ import Detalle_VentaRouter from './src/routes/detalle_venta';
 import Historia_ClinicaRouter from './src/routes/historia_clinica';
 import reporteRouter from './src/routes/reporte';
 import pagoRouter from './src/routes/pago';
+import pageRouter from './src/routes/page';
+import accesoRouter from './src/routes/acceso';
 import uploadRouter from './src/routes/upload';
 
 import {connectToDatabase} from './src/config/try_conexion';
@@ -71,10 +74,22 @@ app.use('/', Detalle_VentaRouter);
 app.use('/', Historia_ClinicaRouter);
 app.use('/', reporteRouter);
 app.use('/', pagoRouter);
+app.use('/', pageRouter);
+app.use('/', accesoRouter);
 app.use('/', uploadRouter);
 
 //app.use('api/utils/file', utilsRouter);
-app.use("/uploads", express.static("uploads"));
+// 1. Configuración CORRECTA de static files
+const staticPath = path.resolve(__dirname, '../uploads');
+app.use('/uploads', express.static(staticPath));
+console.log('🖼  Ruta de archivos estáticos:', staticPath);
+
+// 2. Middleware para logs
+app.use((req, res, next) => {
+  console.log(`[${new Date().toISOString()}] ${req.method} ${req.url}`);
+  next();
+});
+//app.use("/uploads", express.static("uploads"));
 //const dbUri: string = `mongodb://${DB_DOMAIN}:${DB_PORT}/${DB}`;
 
 connectToDatabase(); //call BD

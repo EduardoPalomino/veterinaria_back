@@ -21,3 +21,5 @@ Producto:nombre,foto,categoria_producto_id,tamano,precio_venta,stock,descripcion
 Mascota:nombre,foto,especie_id,raza_id,fecha_nacimiento,peso,sexo_id,cliente_id
 Historia_clinica:mascota_id,fecha,peso,tipo_visita,signo,alergia,fecha_proxima_control,frecuencia_cardiaca,frecuencia_respiratoria,temperatura,prueba_complementaria,tllc,diagnostico,tratamiento,archivo,atendido_por,usuario_id
 Pago:venta_id,cuota,monto,estado,fecha_pago,fecha_vencimiento
+Page:order,ruta,nombre,descripcion,icon
+Acceso:rol_id,page

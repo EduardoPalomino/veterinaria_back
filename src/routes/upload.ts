@@ -1,12 +1,16 @@
 import express, { Router } from 'express';
-import multer from 'multer';
-import { uploadFile } from '../controllers/uploadController';
+import { upload, uploadFile } from '../controllers/uploadController';
 
 const router: Router = express.Router();
 
-const upload = multer({ dest: 'uploads/' });
-
-router.post('/upload', upload.single('file'), uploadFile);
+// Ruta de upload CON VERBOSIDAD
+router.post('/upload',
+    (req, res, next) => {
+        console.log('📤 Iniciando upload...');
+        next();
+    },
+    upload.single('file'),
+    uploadFile
+);
 
 export default router;
-
