@@ -17,6 +17,22 @@ export const getAccesos = async (req: Request, res: Response) => {
     }
 };
 
+export const getAccesoByRolId = async (req: Request, res: Response) => {
+    try {
+        const { rol_id } = req.params;
+        await conBD();
+        const acceso = await Acceso.find({ rol_id: rol_id });
+
+        if (!acceso) {
+            return res.status(404).json({ message: 'Acceso no encontrado' });
+        }
+        res.json({acceso});
+
+    } catch (error: any) {
+        res.status(500).json({ message: 'Error al obtener Acceso', error });
+    }
+};
+
 export const getAccesoById = async (req: Request, res: Response) => {
     try {
         const { id } = req.params;
